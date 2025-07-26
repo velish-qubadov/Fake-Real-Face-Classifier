@@ -30,17 +30,16 @@ git clone https://github.com/velish-qubadov/FakeOrRealFace.git
 cd FakeOrRealFace
 ```
 2.(Optional) Create and activate a virtual environment:
-<details> <summary>Windows</summary>
+Windows:
 ```
 python -m venv venv
 venv\Scripts\activate
 ```
-</details> <details> <summary>macOS / Linux</summary>
+macOS / Linux
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
-</details>
 3.Install dependencies:
 ```
 pip install -r requirements.txt
