@@ -24,5 +24,28 @@ The dataset provides a balanced mix of real and AI-generated faces for training 
 ![Fake face prediction](assets/Fake.png)
 
 ## Installation
-Clone the repository:
-<pre> ```bash git clone https://github.com/velish-qubadov/FakeOrRealFace.git cd FakeOrRealFace ``` </pre>
+1.Clone the repository:
+```
+git clone https://github.com/velish-qubadov/FakeOrRealFace.git
+cd FakeOrRealFace
+```
+2.(Optional) Create and activate a virtual environment:
+<details> <summary>Windows</summary>
+```
+python -m venv venv
+venv\Scripts\activate
+```
+</details> <details> <summary>macOS / Linux</summary>
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+</details>
+3.Install dependencies:
+```
+pip install -r requirements.txt
+```
+4.Run the Streamlit app:
+```
+streamlit run app.py
+```
