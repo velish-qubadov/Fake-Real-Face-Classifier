@@ -1,5 +1,6 @@
 # FakeOrRealFace — Detect Whether a Face Image is Real or Fake
-This project classifies human face images as **real** or **fake**  A convolutional neural network (CNN) model was trained using TensorFlow/Keras, and a simple **Streamlit** interface is provided to make local predictions with a user-friendly UI.
+This project classifies human face images as **real** or **fake** using a convolutional neural network (CNN) trained with TensorFlow/Keras.  
+A simple **Streamlit** interface allows local predictions through an easy-to-use UI.
 
 ## ⚠️ Note on Model File
 The trained model file is quite large and cannot be uploaded directly to this GitHub repository due to size limitations.
