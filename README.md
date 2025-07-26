@@ -14,9 +14,21 @@ If you want to download the trained model weights, you can get them here:
 [Download model weights (Google Drive)](https://drive.google.com/file/d/1HgMOaApCpwK23BYISxEKoiPEMVLL07K1/view?usp=sharing)
 
 ## Model Architecture
-The classification model is built **from scratch**, meaning the DenseNet-50 architecture was implemented manually in code without using pretrained weights or ready-made models.  
-This custom implementation allows full control over the network design and training process.
-The model was trained on a balanced dataset of real and fake faces to accurately classify images.
+The classification model is built **from scratch**, meaning the DenseNet-50 architecture was implemented manually in code without using pretrained weights or ready-made models.
+
+1.Manual Architecture Construction:
+
+**Implemented from scratch in TensorFlow/Keras**
+
+**No pretrained weights or transfer learning**
+
+**Complete control over network hyperparameters**
+
+2.Custom Modifications:
+
+**L2 weight decay (λ=1e-4) on all convolutional layers**
+
+**Aggressive 60% dropout after the final dense layer to prevent overfitting**
 
 ## Streamlit
 **In the Streamlit app, I uploaded a real face image, and the model correctly predicted it as real.**
