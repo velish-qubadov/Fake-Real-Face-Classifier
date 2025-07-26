@@ -22,3 +22,7 @@ The dataset provides a balanced mix of real and AI-generated faces for training 
 ![Real face prediction](assets/Real.png)
 **In the Streamlit app, I uploaded a fake face image, and the model correctly predicted it as fake.**
 ![Fake face prediction](assets/Fake.png)
+
+## Installation
+Clone the repository:
+<pre> ```bash git clone https://github.com/velish-qubadov/FakeOrRealFace.git cd FakeOrRealFace ``` </pre>
