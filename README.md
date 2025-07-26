@@ -30,6 +30,7 @@ git clone https://github.com/velish-qubadov/FakeOrRealFace.git
 cd FakeOrRealFace
 ```
 2.(Optional) Create and activate a virtual environment:
+
 Windows:
 ```
 python -m venv venv
