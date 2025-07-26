@@ -19,6 +19,6 @@ This project uses the dataset [140k Real and Fake Faces](https://www.kaggle.com/
 The dataset provides a balanced mix of real and AI-generated faces for training and evaluation.
 
 **In the Streamlit app, I uploaded a real face image, and the model correctly predicted it as real.**
-<img width="877" height="797" alt="image" src="https://github.com/user-attachments/assets/30e94c5a-f8a3-48d5-8c7d-af1fc336322d" />
+![Real face prediction](assets/Real.png)
 **In the Streamlit app, I uploaded a fake face image, and the model correctly predicted it as fake.**
-<img width="865" height="754" alt="image" src="https://github.com/user-attachments/assets/7609b1f2-07f4-48a3-acb5-28d06d2b9d03" />
+![Fake face prediction](assets/Fake.png)
