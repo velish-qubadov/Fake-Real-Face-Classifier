@@ -1,6 +1,6 @@
 # FakeOrRealFace — Detect Whether a Face Image is Real or Fake
-This project classifies human face images as **real** or **fake** using a convolutional neural network (CNN) trained with TensorFlow/Keras.  
-A simple **Streamlit** interface allows local predictions through an easy-to-use UI.
+## Project Overview
+This project classifies human face images as real or fake using a custom-built DenseNet-50 convolutional neural network (CNN) architecture implemented from scratch in TensorFlow/Keras. A simple Streamlit interface is provided for easy, local predictions through an intuitive user interface.
 
 ## Dataset 
 This project uses the dataset [140k Real and Fake Faces](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces) from Kaggle, which contains:
@@ -18,17 +18,17 @@ The classification model is built **from scratch**, meaning the DenseNet-50 arch
 
 **1.Manual Architecture Construction:**
 
-Implemented from scratch in TensorFlow/Keras
+  Implemented from scratch in TensorFlow/Keras
 
-No pretrained weights or transfer learning
+  No pretrained weights or transfer learning
 
-Complete control over network hyperparameters
+  Complete control over network hyperparameters
 
 **2.Custom Modifications:**
 
-L2 weight decay (λ=1e-4) on all convolutional layers
+  L2 weight decay (λ=1e-4) on all convolutional layers
 
-Aggressive 60% dropout after the final dense layer to prevent overfitting
+  Aggressive 60% dropout after the final dense layer to prevent overfitting
 
 ## Streamlit
 **In the Streamlit app, I uploaded a real face image, and the model correctly predicted it as real.**
